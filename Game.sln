@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Console", "Game.Console\Game.Console.csproj", "{B74A896F-83D7-462D-AF39-8AF590C9C4C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Characters", "Game.Characters\Game.Characters.csproj", "{CF1DC979-FA7A-4BD2-8E64-486CE899DD04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Narrators", "Game.Narrators\Game.Narrators.csproj", "{F36AA8E8-252F-49C6-AD6C-DC67D8A04232}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{C77CA1E3-357B-442A-9053-0A40ED30283F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Core", "Game.Core\Game.Core.csproj", "{A2443B13-4FB8-404F-B3C4-21E825498020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{4FDC8C02-3BE6-483C-AEE7-FC6E0D0AB5B3}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\Markdown.txt = Resources\Markdown.txt
+		Resources\Memory.txt = Resources\Memory.txt
+		Resources\Output\Narrator\Narrator.txt = Resources\Output\Narrator\Narrator.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B74A896F-83D7-462D-AF39-8AF590C9C4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74A896F-83D7-462D-AF39-8AF590C9C4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74A896F-83D7-462D-AF39-8AF590C9C4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74A896F-83D7-462D-AF39-8AF590C9C4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1DC979-FA7A-4BD2-8E64-486CE899DD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1DC979-FA7A-4BD2-8E64-486CE899DD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1DC979-FA7A-4BD2-8E64-486CE899DD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1DC979-FA7A-4BD2-8E64-486CE899DD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36AA8E8-252F-49C6-AD6C-DC67D8A04232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36AA8E8-252F-49C6-AD6C-DC67D8A04232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36AA8E8-252F-49C6-AD6C-DC67D8A04232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36AA8E8-252F-49C6-AD6C-DC67D8A04232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2443B13-4FB8-404F-B3C4-21E825498020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2443B13-4FB8-404F-B3C4-21E825498020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2443B13-4FB8-404F-B3C4-21E825498020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2443B13-4FB8-404F-B3C4-21E825498020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F36AA8E8-252F-49C6-AD6C-DC67D8A04232} = {C77CA1E3-357B-442A-9053-0A40ED30283F}
+		{CF1DC979-FA7A-4BD2-8E64-486CE899DD04} = {C77CA1E3-357B-442A-9053-0A40ED30283F}
+		{A2443B13-4FB8-404F-B3C4-21E825498020} = {C77CA1E3-357B-442A-9053-0A40ED30283F}
+	EndGlobalSection
+EndGlobal
