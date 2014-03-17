@@ -1,0 +1,37 @@
+-----------------------------------------------
+Character.Question.OtherCharacter.MentalImage
+-----------------------------------------------
+
+Default:
+{Target.HeShe} is ok
+
+Positive:
+I have a positive view of {Target.Name.First}
+{Target.Name.First} is a good person
+I like {Target.Name.First}
+
+Negative:
+I dont like {Target.Name}
+
+-----------------------------------------------
+Character.Question.OtherCharacter.DontKnow
+-----------------------------------------------
+
+Default:
+I dont know anyone called {Target.Name}
+I dont know someone called {Target.Name}
+I dont know this person
+
+Angry:
+Leave me alone
+I dont feel like talking right now
+Now is not a good time
+
+Pre.Polite:
+Sorry
+
+Post.Curious:
+Who is {Target.Name}?
+Who is this person called {Target.Name}?
+
+-----------------------------------------------

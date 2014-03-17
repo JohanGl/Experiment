@@ -1,0 +1,12 @@
+You have found {a clue} at your {feet}.
+
+---
+{0} = c3,t1
+{1} = c4,t2
+
+---------------------------------------------------
+
+{Target.Name}
+{Target.Name.First}
+{Target.Name.Last}
+{Target.HeShe}

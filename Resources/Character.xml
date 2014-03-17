@@ -1,0 +1,85 @@
+<Character>
+	<Id>1</Id>
+	<Common>
+		<Type>Human</Type>
+		<Gender>Male</Gender>
+		<Age>30</Age>
+		<Name>
+			<First>John</First>
+			<Last>Doe</Last>
+			<Alias>Johnny</Alias>
+		</Name>
+	</Common>
+	<States>
+		<Physical>
+			<Health>100</Health>
+			<IsDead />
+			<TimeOfDeath />
+			<IsSick />
+			<Sickness />
+			<Limbs>
+				<Head>
+					<Eye />
+					<Eye />
+					<Ear />
+					<Ear />
+					<Nose />
+					<Mouth>
+						<Teeth />
+						<Tounge />
+					</Mouth>
+				</Head>
+				<Neck />
+				<Torso />
+				<Stomach />
+				<Arm />
+				<Arm />
+				<Leg />
+				<Leg />
+			</Limbs>
+			<Organs>
+				<Brain Limb="1" />
+				<Heart Limb="2" />
+				<Lung Limb="2" />
+				<Lung Limb="2" />
+				<Kidney Limb="3" />
+				<Liver Limb="3" />
+			</Organs>
+		</Physical>
+		<Mental>
+			<Status>Normal<Status>
+			<Stability>Normal</Stability>
+		</Mental>
+	</States>
+	<Relationships>
+		<Relationship>
+			<Id>1</Id>
+			<TargetId>2</TargetId>
+			<Type>Friendship</Type>
+			<Strength>10</Strength>
+			<Pros>
+				<Reliable Strength="8" />
+				<Loyal Strength="5" />
+			</Pros>
+			<Cons>
+				<Temper Strength="3" />
+			</Cons>
+		</Relationship>
+	</Relationships>
+	<Memory>
+		<Events>
+			<Event>
+				<RelatedTo>1</RelatedTo>
+				<Type>Task</Type>
+				<Action>Complete task A</Action>
+				<Strength>8</Strength>
+			</Event>
+			<Event>
+				<RelatedTo>2</RelatedTo>
+				<Type>RelationshipChange</Type>
+				<Action>Rudeness</Action>
+				<Strength>4</Strength>
+			</Event>
+		</Events>
+	</Memory>
+</Character>

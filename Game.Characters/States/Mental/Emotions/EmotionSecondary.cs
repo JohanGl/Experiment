@@ -1,0 +1,32 @@
+namespace Game.Characters.States.Mental.Emotions
+{
+	public enum EmotionSecondary
+	{
+		Default,
+		Love_Affection,
+		Love_Desire,
+		Love_Longing,
+		Joy_Cheerfulness,
+		Joy_Zest,
+		Joy_Pride,
+		Joy_Optimism,
+		Joy_Relief,
+		Surprise_Surprise,
+		Surprise_Amazement,
+		Surprise_Astonishment,
+		Anger_Irritability,
+		Anger_Exasperation,
+		Anger_Rage,
+		Anger_Disgust,
+		Anger_Envy,
+		Anger_Torment,
+		Sadness_Sadness,
+		Sadness_Suffering,
+		Sadness_Disappointment,
+		Sadness_Shame,
+		Sadness_Neglect,
+		Sadness_Sympathy,
+		Fear_Horror,
+		Fear_Nervousness
+	}
+}
